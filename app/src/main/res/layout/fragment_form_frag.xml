@@ -1,0 +1,105 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/materialBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:textColor="@color/materialTextColorPrimary"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Fill your details"/>
+    <EditText
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uname"
+        android:hint="Enter Name"/>
+    <EditText
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uemail"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email"/>
+    <EditText
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/umob_number"
+        android:inputType="phone"
+        android:hint="Enter Mobile Number"/>
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+
+            android:textSize="16sp"
+
+            android:layout_toLeftOf="@id/imageView"
+
+
+            android:paddingLeft="14dp"
+            android:paddingRight="10dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+
+
+            android:elevation="0dp"
+            android:textAllCaps="false"
+            android:stateListAnimator="@null"
+            android:drawableTint="@color/materialTextColorHint"
+            android:drawableLeft="@drawable/ic_attach_file_white_18dp"
+
+            android:textColor="@color/materialTextColorHint"
+            android:textAlignment="textStart"
+            android:text="Upload image"
+            android:id="@+id/image_btn"
+            />
+        <ImageView
+            android:visibility="gone"
+
+
+
+            android:layout_width="100dp"
+            android:id="@+id/imageView"
+            android:layout_height="100dp"
+            android:layout_weight="0"/>
+
+
+
+    </LinearLayout>
+<Button
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/button"
+    android:text="Submit"
+    android:textColor="@color/white"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="bottom"
+    />
+
+</LinearLayout>

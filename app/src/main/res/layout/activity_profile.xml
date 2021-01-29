@@ -1,0 +1,50 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/app_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:src="@drawable/pro_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/app_bar"
+        android:layout_width="100dp"
+        android:id="@+id/pro_pic"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/type"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/tname"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/pro_pic"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/temail"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tname"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/tphone2"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/temail"
+        android:hint="Phone Number"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tphone2"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:id="@+id/submit"/>
+</RelativeLayout>
