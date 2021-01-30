@@ -25,8 +25,7 @@ mobile number.
 any changes in contact List.
 
 7.After updating profile, all the change should reflect on the drawer.
-
-
+TOOLS USED  - ANDROID, JAVA, XML, GOOGLE MAPS API, FACEBOOK API, SQLite, RecyclerView, WebView 
 I COMPLETED THE TASK IN GIVEN TIME (24 HRS) AND I CAME FIRST !!! 
 THIS WAS THE FIRST CODING RELATED COMPETITON I WON...
 DATE - MARCH 2018
