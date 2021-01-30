@@ -1,5 +1,5 @@
 # AppCom-Made-in-24-hrs 
-AppCom was an App making competition. This was the App made by me. I came first in this competition
+AppCom was an App making competition. This was the App made by me[WATCH THE YOUTUBE VIDEO ATTACHED]. I came first in this competition
 The task which was given to me - 
 
  Here, you need to develop a Android Application in Android Studio which must contain following features-
